@@ -55,5 +55,3 @@ func _on_animaciones_animation_finished():
 	if $animaciones.animation == "appear":
 		appeared = true
 	
-# Prueba
-# Prueba Steven

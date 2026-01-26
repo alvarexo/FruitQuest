@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://bv2b6rqlpf6vt"]
+
+[ext_resource type="PackedScene" uid="uid://8pj2q8sallba" path="res://escenas/characters/ninja_cat.tscn" id="1_r7qo2"]
+[ext_resource type="PackedScene" uid="uid://cjjkx41raprfy" path="res://escenas/escenarios/mapa 1.tscn" id="2_dx68v"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="ninja_cat" parent="." instance=ExtResource("1_r7qo2")]
+
+[node name="TileMap" parent="." instance=ExtResource("2_dx68v")]
